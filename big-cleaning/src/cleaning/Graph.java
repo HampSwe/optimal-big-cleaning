@@ -1,6 +1,5 @@
 package cleaning;
 
-
 import java.util.*;
 
 public class Graph<T> {
@@ -32,8 +31,6 @@ public class Graph<T> {
         }
 
         stringBuilder.append(")\n");
-
-        //stringBuilder.setLength(stringBuilder.length()-1);
 
         return stringBuilder.toString();
     }
