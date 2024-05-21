@@ -2,7 +2,12 @@ package cleaning;
 
 import java.util.*;
 
-public class Graph<T> {
+/**
+ * Represents a directed graph with both an adjacency matrix and adjacency lists
+ * @param <T> The type of values contained in the nodes
+ * @param <W> The type of weights on the edges
+ */
+public class Graph<T, W> {
 
     private final Collection<Node<T>> nodes = new LinkedList<>();
 

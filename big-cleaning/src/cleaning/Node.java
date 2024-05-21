@@ -2,6 +2,10 @@ package cleaning;
 
 import java.util.Collection;
 
+/**
+ * Represents a node in a directed graph with values of type T
+ * @param <T> Type of the contents of the node
+ */
 public class Node <T> {
 
     private final T data;
