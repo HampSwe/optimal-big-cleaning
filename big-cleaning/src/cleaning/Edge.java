@@ -2,8 +2,8 @@ package cleaning;
 
 /**
  * Represents a directed edge
- * @param <W> Weight class
- * @param <N> Node class
+ * @param <W> Weight type
+ * @param <N> Node type
  */
 public class Edge<W, N> {
     N goingTo;
