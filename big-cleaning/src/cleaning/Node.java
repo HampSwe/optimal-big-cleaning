@@ -56,7 +56,8 @@ public class Node <T> {
         if (!neighbours.isEmpty()) {
 
             for (var node : neighbours) {
-                stringBuilder.append(node.data.toString() + ", ");
+                stringBuilder.append(node.data.toString());
+                stringBuilder.append(", ");
             }
 
             stringBuilder.setLength(stringBuilder.length() - 2);

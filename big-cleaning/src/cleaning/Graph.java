@@ -27,7 +27,8 @@ public class Graph<T> {
         stringBuilder.append("Graph(\n");
 
         for (Node<?> node : nodes) {
-            stringBuilder.append(node.toString() + "\n");
+            stringBuilder.append(node.toString());
+            stringBuilder.append("\n");
         }
 
         stringBuilder.append(")\n");
